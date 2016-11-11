@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+    /*reset Firefox user agent styles*/
+    -moz-margin-before: 0px;
+    -moz-margin-after: 0px;
+    -moz-margin-start: 0px;
+    -moz-margin-end: 0px;
+    -moz-padding-before: 0px;
+    -moz-padding-after: 0px;
+    -moz-padding-start: 0px;
+    -moz-padding-end: 0px;
+    /*reset Internet Explorer user agent styles*/
+    -ms-margin-before: 0px;
+    -ms-margin-after: 0px;
+    -ms-margin-start: 0px;
+    -ms-margin-end: 0px;
+    -ms-padding-before: 0px;
+    -ms-padding-after: 0px;
+    -ms-padding-start: 0px;
+    -ms-padding-end: 0px;
+    /*reset Opera user agent styles*/
+    -o-margin-before: 0px;
+    -o-margin-after: 0px;
+    -o-margin-start: 0px;
+    -o-margin-end: 0px;
+    -o-padding-before: 0px;
+    -o-padding-after: 0px;
+    -o-padding-start: 0px;
+    -o-padding-end: 0px;
+}
+
+nav {
+    background-color: gainsboro;
+    height: 50px;
+    text-align: left;
+    position: relative;
+}
+
+.title1 {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    margin-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.tablinks {
+    position: relative;
+    text-align: right;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    top: -20;
+    left: -30;
+    word-spacing: 20px;
+}
+
+.searchjobs {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.fname1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    padding: 0 5px 0 8px;
+    width: 400px;
+}
+
+.fname1,
+.fnamee2 {
+    position: relative;
+    text-align: left;
+    font-family: 'Helvetica';
+    font-size: 20px;
+}
+
+.fname2 {
+    width: 90px;
+    height: 50px;
+    border: 50px;
+    border-color: 10px solid black;
+}
+
+.pagination {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 90px;
+    border: 90px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+table {
+    /* table */
+    border: 1px solid gainsboro;
+    border-spacing: 0px;
+    border-collapse: separate;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+th,
+td {
+    /* cells */
+    border: 1px solid gainsboro;
+    padding: 5px 10px;
+}
+
+.displayresults {
+    position: relative;
+    margin-left: 90px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
